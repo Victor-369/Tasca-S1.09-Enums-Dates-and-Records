@@ -14,6 +14,7 @@ This repository contains Java exercises on enums, dates and records from IT Acad
 | [Level 1, Exercise 1](src/main/java/com/pruebas/proyecto/nivell1/exercici1/README.md) | Defines the `Day` enum and classifies each day as a working day or the weekend. |
 | [Level 1, Exercise 2](src/main/java/com/pruebas/proyecto/nivell1/exercici2/README.md) | Defines task priority levels and changes the task's action according to its level. |
 | [Level 1, Exercise 3](src/main/java/com/pruebas/proyecto/nivell1/exercici3/README.md) | Adds behaviour to the `Level` enum by returning a colour for each level. |
+| [Level 1, Exercise 4](src/main/java/com/pruebas/proyecto/nivell1/exercici4/README.md) | Converts a string to a `Season` enum value and handles invalid values. |
 
 ## Build and test
 
