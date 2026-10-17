@@ -18,6 +18,9 @@ This repository contains Java exercises on enums, dates and records from IT Acad
 | [Level 2, Exercise 1](src/main/java/com/pruebas/proyecto/nivell2/exercici1/README.md) | Displays the current date, time and date-time using `LocalDate`, `LocalTime` and `LocalDateTime`. |
 | [Level 2, Exercise 2](src/main/java/com/pruebas/proyecto/nivell2/exercici2/README.md) | Calculates the difference between two dates using `Period`. |
 | [Level 2, Exercise 3](src/main/java/com/pruebas/proyecto/nivell2/exercici3/README.md) | Adds and subtracts days, months and hours from a date and time. |
+| [Level 2, Exercise 4](src/main/java/com/pruebas/proyecto/nivell2/exercici4/README.md) | Formats a date in several British English formats with `DateTimeFormatter`. |
+| [Level 2, Exercise 5](src/main/java/com/pruebas/proyecto/nivell2/exercici5/README.md) | Checks whether a given date is before today. |
+| [Level 2, Exercise 6](src/main/java/com/pruebas/proyecto/nivell2/exercici6/README.md) | Stores appointments as `LocalDateTime` and displays upcoming appointments. |
 
 ## Build and test
 
