@@ -11,6 +11,7 @@ public class DateChecker {
 
     public static boolean isBeforeToday(LocalDate date) {
         Objects.requireNonNull(date, "date must not be null");
+
         return date.isBefore(LocalDate.now());
     }
 }
