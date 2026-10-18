@@ -17,7 +17,7 @@ public final class SeasonConverter {
     }
 
     public static void main(String[] args) {
-        System.out.println(convert("spring"));
+        System.out.println(convert("SPRING"));
 
         try {
             System.out.println(convert("monsoon"));
