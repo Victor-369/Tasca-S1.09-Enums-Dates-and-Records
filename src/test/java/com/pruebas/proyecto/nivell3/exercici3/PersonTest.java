@@ -7,6 +7,20 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class PersonTest {
     @Test
+    void constructor_whenNameIsNull_throwsAnException() {
+        assertThatThrownBy(() -> new com.pruebas.proyecto.nivell3.exercici1.Person(null, 25))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Name must not be blank.");
+    }
+
+    @Test
+    void constructor_whenNameIsBlank_throwsAnException() {
+        assertThatThrownBy(() -> new com.pruebas.proyecto.nivell3.exercici1.Person("  ", 25))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Name must not be blank.");
+    }
+
+    @Test
     void constructor_notAllowedNegativeAge_throwError() {
         assertThatThrownBy(() -> new Person("Christian", -10))
                 .isInstanceOf(IllegalArgumentException.class)
@@ -16,7 +30,6 @@ public class PersonTest {
     @Test
     void constructor_ageZero_isAllowed() {
         Person person = new Person("Christian", 0);
-
         assertThat(person.name()).isEqualTo("Christian");
         assertThat(person.age()).isZero();
     }
