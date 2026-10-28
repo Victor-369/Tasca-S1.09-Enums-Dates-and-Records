@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("\nList of adults:");
         persons.stream()
-                .filter(p -> p.isAdult())
+                .filter(Person::isAdult)
                 .forEach(System.out::println);
 
         System.out.println("\nList of minors:");

@@ -2,9 +2,12 @@ package com.pruebas.proyecto.nivell3.exercici2;
 
 public class Main {
     public static void main(String[] args) {
-        Person person = new Person("Erik", 30);
+        Person personErik = new Person("Erik", 30);
+        System.out.println(personErik.sayHello());
+        System.out.println("Is adult?: " + personErik.isAdult());
 
-        System.out.println(person.sayHello());
-        System.out.println("Is adult?: " + person.isAdult());
+        Person personElissa = new Person("Elissa", 15);
+        System.out.println(personElissa.sayHello());
+        System.out.println("Is adult?: " + personElissa.isAdult());
     }
 }
