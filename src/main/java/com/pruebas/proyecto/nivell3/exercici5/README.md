@@ -12,3 +12,30 @@ It is more flexible, but all that code has to be written by hand.
 #### Usefulness
 - Record: DTOs or API responses. As it is immutable, it is safer, and the `equals` method compares by content.
 - Class: necessary when the object needs to change state, use inheritance or encapsulate complex logic.
+
+Example of record declaration:
+```Java
+public record PersonRecord(String name, int age) {
+}
+```
+
+Example of Class declaration:
+```Java
+public class PersonClass {
+    private final String name;
+    private final int age;
+
+    public PersonClass(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+}
+```
