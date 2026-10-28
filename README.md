@@ -25,6 +25,7 @@ This repository contains Java exercises on enums, dates and records from IT Acad
 | [Level 3, Exercise 2](src/main/java/com/pruebas/proyecto/nivell3/exercici2/README.md) | Adds greeting and adult-check methods to a record. |
 | [Level 3, Exercise 3](src/main/java/com/pruebas/proyecto/nivell3/exercici3/README.md) | Validates a record's age in its constructor. |
 | [Level 3, Exercise 4](src/main/java/com/pruebas/proyecto/nivell3/exercici4/README.md) | Filters people into adults and minors using streams and lambdas. |
+| [Level 3, Exercise 5](src/main/java/com/pruebas/proyecto/nivell3/exercici5/README.md) | Compares records with traditional classes in terms of readability and usefulness. |
 
 ## Build and test
 
