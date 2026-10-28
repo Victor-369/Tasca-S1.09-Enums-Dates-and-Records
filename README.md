@@ -21,6 +21,10 @@ This repository contains Java exercises on enums, dates and records from IT Acad
 | [Level 2, Exercise 4](src/main/java/com/pruebas/proyecto/nivell2/exercici4/README.md) | Formats a date in several British English formats with `DateTimeFormatter`. |
 | [Level 2, Exercise 5](src/main/java/com/pruebas/proyecto/nivell2/exercici5/README.md) | Checks whether a given date is before today. |
 | [Level 2, Exercise 6](src/main/java/com/pruebas/proyecto/nivell2/exercici6/README.md) | Stores appointments as `LocalDateTime` and displays upcoming appointments. |
+| [Level 3, Exercise 1](src/main/java/com/pruebas/proyecto/nivell3/exercici1/README.md) | Creates and instantiates a `Person` record. |
+| [Level 3, Exercise 2](src/main/java/com/pruebas/proyecto/nivell3/exercici2/README.md) | Adds greeting and adult-check methods to a record. |
+| [Level 3, Exercise 3](src/main/java/com/pruebas/proyecto/nivell3/exercici3/README.md) | Validates a record's age in its constructor. |
+| [Level 3, Exercise 4](src/main/java/com/pruebas/proyecto/nivell3/exercici4/README.md) | Filters people into adults and minors using streams and lambdas. |
 
 ## Build and test
 
